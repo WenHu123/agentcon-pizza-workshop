@@ -53,3 +53,10 @@ Benefits of MCP
 🔐 Security & governance: centrally manage access and tool permissions.
 ⚙️ Scalability: add or update server tools without changing your agent code.
 🧠 Simplicity: keep integrations and business logic in the server; keep your agent focused on reasoning.
+
+Best Practices for MCP Integration
+🔒 Principle of least privilege: only allow tools the agent truly needs.
+📜 Observability: log all tool calls for traceability and debugging.
+🔁 Resilience: handle connection errors gracefully and retry failed tool calls.
+🧩 Versioning: pin MCP server versions to prevent breaking changes.
+👩‍💼 Human-in-the-loop: use approval modes for sensitive actions (like order placement).
